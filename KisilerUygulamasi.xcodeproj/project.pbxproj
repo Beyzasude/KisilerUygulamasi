@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		2367D8152A78158E007D8DED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2367D8142A78158E007D8DED /* AppDelegate.swift */; };
 		2367D8172A78158E007D8DED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2367D8162A78158E007D8DED /* SceneDelegate.swift */; };
-		2367D8192A78158E007D8DED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2367D8182A78158E007D8DED /* ViewController.swift */; };
+		2367D8192A78158E007D8DED /* Anasayfa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2367D8182A78158E007D8DED /* Anasayfa.swift */; };
 		2367D81C2A78158E007D8DED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2367D81A2A78158E007D8DED /* Main.storyboard */; };
 		2367D81E2A78158F007D8DED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2367D81D2A78158F007D8DED /* Assets.xcassets */; };
 		2367D8212A78158F007D8DED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2367D81F2A78158F007D8DED /* LaunchScreen.storyboard */; };
+		2367D82D2A781B03007D8DED /* KisiKayit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2367D82C2A781B03007D8DED /* KisiKayit.swift */; };
+		2367D82F2A781B22007D8DED /* KisiDetay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2367D82E2A781B22007D8DED /* KisiDetay.swift */; };
+		2367D8312A78304A007D8DED /* Kisiler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2367D8302A78304A007D8DED /* Kisiler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2367D8112A78158E007D8DED /* KisilerUygulamasi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KisilerUygulamasi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2367D8142A78158E007D8DED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2367D8162A78158E007D8DED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2367D8182A78158E007D8DED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2367D8182A78158E007D8DED /* Anasayfa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anasayfa.swift; sourceTree = "<group>"; };
 		2367D81B2A78158E007D8DED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2367D81D2A78158F007D8DED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2367D8202A78158F007D8DED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2367D8222A78158F007D8DED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2367D82C2A781B03007D8DED /* KisiKayit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiKayit.swift; sourceTree = "<group>"; };
+		2367D82E2A781B22007D8DED /* KisiDetay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiDetay.swift; sourceTree = "<group>"; };
+		2367D8302A78304A007D8DED /* Kisiler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kisiler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +64,48 @@
 			children = (
 				2367D8142A78158E007D8DED /* AppDelegate.swift */,
 				2367D8162A78158E007D8DED /* SceneDelegate.swift */,
-				2367D8182A78158E007D8DED /* ViewController.swift */,
+				2367D8292A78160D007D8DED /* ui */,
+				2367D8282A7815F8007D8DED /* data */,
 				2367D81A2A78158E007D8DED /* Main.storyboard */,
 				2367D81D2A78158F007D8DED /* Assets.xcassets */,
 				2367D81F2A78158F007D8DED /* LaunchScreen.storyboard */,
 				2367D8222A78158F007D8DED /* Info.plist */,
 			);
 			path = KisilerUygulamasi;
+			sourceTree = "<group>";
+		};
+		2367D8282A7815F8007D8DED /* data */ = {
+			isa = PBXGroup;
+			children = (
+				2367D82B2A781645007D8DED /* entity */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		2367D8292A78160D007D8DED /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				2367D82A2A781637007D8DED /* views */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+		2367D82A2A781637007D8DED /* views */ = {
+			isa = PBXGroup;
+			children = (
+				2367D8182A78158E007D8DED /* Anasayfa.swift */,
+				2367D82C2A781B03007D8DED /* KisiKayit.swift */,
+				2367D82E2A781B22007D8DED /* KisiDetay.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		2367D82B2A781645007D8DED /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				2367D8302A78304A007D8DED /* Kisiler.swift */,
+			);
+			path = entity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +179,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2367D8192A78158E007D8DED /* ViewController.swift in Sources */,
+				2367D82D2A781B03007D8DED /* KisiKayit.swift in Sources */,
+				2367D82F2A781B22007D8DED /* KisiDetay.swift in Sources */,
+				2367D8192A78158E007D8DED /* Anasayfa.swift in Sources */,
 				2367D8152A78158E007D8DED /* AppDelegate.swift in Sources */,
 				2367D8172A78158E007D8DED /* SceneDelegate.swift in Sources */,
+				2367D8312A78304A007D8DED /* Kisiler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
