@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2334B95E2A8542C400A99A05 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 2334B95D2A8542C400A99A05 /* RxSwift */; };
+		2334B9612A8543AA00A99A05 /* KisilerDaoRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2334B9602A8543AA00A99A05 /* KisilerDaoRepository.swift */; };
+		2334B9642A85440600A99A05 /* AnasayfaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2334B9632A85440600A99A05 /* AnasayfaViewModel.swift */; };
+		2334B9662A85442F00A99A05 /* KisiKayitViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2334B9652A85442F00A99A05 /* KisiKayitViewModel.swift */; };
+		2334B9682A85444F00A99A05 /* KisiDetayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2334B9672A85444F00A99A05 /* KisiDetayViewModel.swift */; };
 		2367D8152A78158E007D8DED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2367D8142A78158E007D8DED /* AppDelegate.swift */; };
 		2367D8172A78158E007D8DED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2367D8162A78158E007D8DED /* SceneDelegate.swift */; };
 		2367D8192A78158E007D8DED /* Anasayfa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2367D8182A78158E007D8DED /* Anasayfa.swift */; };
@@ -16,9 +21,14 @@
 		2367D82D2A781B03007D8DED /* KisiKayit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2367D82C2A781B03007D8DED /* KisiKayit.swift */; };
 		2367D82F2A781B22007D8DED /* KisiDetay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2367D82E2A781B22007D8DED /* KisiDetay.swift */; };
 		2367D8312A78304A007D8DED /* Kisiler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2367D8302A78304A007D8DED /* Kisiler.swift */; };
+		23DFE9A92A7C10190059946A /* KisilerHucre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DFE9A82A7C10190059946A /* KisilerHucre.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2334B9602A8543AA00A99A05 /* KisilerDaoRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisilerDaoRepository.swift; sourceTree = "<group>"; };
+		2334B9632A85440600A99A05 /* AnasayfaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaViewModel.swift; sourceTree = "<group>"; };
+		2334B9652A85442F00A99A05 /* KisiKayitViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiKayitViewModel.swift; sourceTree = "<group>"; };
+		2334B9672A85444F00A99A05 /* KisiDetayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiDetayViewModel.swift; sourceTree = "<group>"; };
 		2367D8112A78158E007D8DED /* KisilerUygulamasi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KisilerUygulamasi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2367D8142A78158E007D8DED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2367D8162A78158E007D8DED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -30,6 +40,7 @@
 		2367D82C2A781B03007D8DED /* KisiKayit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiKayit.swift; sourceTree = "<group>"; };
 		2367D82E2A781B22007D8DED /* KisiDetay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiDetay.swift; sourceTree = "<group>"; };
 		2367D8302A78304A007D8DED /* Kisiler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kisiler.swift; sourceTree = "<group>"; };
+		23DFE9A82A7C10190059946A /* KisilerHucre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisilerHucre.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,12 +48,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2334B95E2A8542C400A99A05 /* RxSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2334B95F2A85438300A99A05 /* repo */ = {
+			isa = PBXGroup;
+			children = (
+				2334B9602A8543AA00A99A05 /* KisilerDaoRepository.swift */,
+			);
+			path = repo;
+			sourceTree = "<group>";
+		};
+		2334B9622A8543EC00A99A05 /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2334B9632A85440600A99A05 /* AnasayfaViewModel.swift */,
+				2334B9652A85442F00A99A05 /* KisiKayitViewModel.swift */,
+				2334B9672A85444F00A99A05 /* KisiDetayViewModel.swift */,
+			);
+			path = viewModel;
+			sourceTree = "<group>";
+		};
 		2367D8082A78158E007D8DED = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +107,7 @@
 		2367D8282A7815F8007D8DED /* data */ = {
 			isa = PBXGroup;
 			children = (
+				2334B95F2A85438300A99A05 /* repo */,
 				2367D82B2A781645007D8DED /* entity */,
 			);
 			path = data;
@@ -85,6 +116,8 @@
 		2367D8292A78160D007D8DED /* ui */ = {
 			isa = PBXGroup;
 			children = (
+				2334B9622A8543EC00A99A05 /* viewModel */,
+				23DFE9A72A7C0FD40059946A /* tableView */,
 				2367D82A2A781637007D8DED /* views */,
 			);
 			path = ui;
@@ -108,6 +141,14 @@
 			path = entity;
 			sourceTree = "<group>";
 		};
+		23DFE9A72A7C0FD40059946A /* tableView */ = {
+			isa = PBXGroup;
+			children = (
+				23DFE9A82A7C10190059946A /* KisilerHucre.swift */,
+			);
+			path = tableView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -124,6 +165,9 @@
 			dependencies = (
 			);
 			name = KisilerUygulamasi;
+			packageProductDependencies = (
+				2334B95D2A8542C400A99A05 /* RxSwift */,
+			);
 			productName = KisilerUygulamasi;
 			productReference = 2367D8112A78158E007D8DED /* KisilerUygulamasi.app */;
 			productType = "com.apple.product-type.application";
@@ -152,6 +196,9 @@
 				Base,
 			);
 			mainGroup = 2367D8082A78158E007D8DED;
+			packageReferences = (
+				2334B95C2A8542C400A99A05 /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
 			productRefGroup = 2367D8122A78158E007D8DED /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -180,11 +227,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				2367D82D2A781B03007D8DED /* KisiKayit.swift in Sources */,
+				23DFE9A92A7C10190059946A /* KisilerHucre.swift in Sources */,
 				2367D82F2A781B22007D8DED /* KisiDetay.swift in Sources */,
 				2367D8192A78158E007D8DED /* Anasayfa.swift in Sources */,
+				2334B9612A8543AA00A99A05 /* KisilerDaoRepository.swift in Sources */,
+				2334B9642A85440600A99A05 /* AnasayfaViewModel.swift in Sources */,
+				2334B9682A85444F00A99A05 /* KisiDetayViewModel.swift in Sources */,
 				2367D8152A78158E007D8DED /* AppDelegate.swift in Sources */,
 				2367D8172A78158E007D8DED /* SceneDelegate.swift in Sources */,
 				2367D8312A78304A007D8DED /* Kisiler.swift in Sources */,
+				2334B9662A85442F00A99A05 /* KisiKayitViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +390,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -365,6 +418,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -400,6 +454,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2334B95C2A8542C400A99A05 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2334B95D2A8542C400A99A05 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2334B95C2A8542C400A99A05 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2367D8092A78158E007D8DED /* Project object */;
 }

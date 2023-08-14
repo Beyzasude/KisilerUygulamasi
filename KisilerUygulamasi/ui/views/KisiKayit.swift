@@ -12,6 +12,7 @@ class KisiKayit: UIViewController {
     @IBOutlet weak var tfKisiAd: UITextField!
     @IBOutlet weak var tfKisiTel: UITextField!
     
+    var viewModel = KisiKayitViewModel()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,14 +22,7 @@ class KisiKayit: UIViewController {
     
     @IBAction func buttonKaydet(_ sender: Any) {
         if let ka = tfKisiAd.text, let kt = tfKisiTel.text {
-            kaydet(ka, kt)
+            viewModel.kaydet(ka, kt)
         }
     }
-    
-    //veri taanı için 2 tane parametre alacak
-    func kaydet(_ kisi_ad: String, _ kisi_tel: String){
-        print("Kişi kaydet: \(kisi_ad) - \(kisi_tel)")
-        
-    }
-    
 }
